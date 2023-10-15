@@ -18,7 +18,7 @@ start = int(input("What is the starting number? "))
 end = int(input("What is the ending number? "))
 
 # Generate a random tuple with 20 elements ranging from 1 to 100
-random_tuple = generate_random_tuple(repetions + 1, start - 1, end)
+random_tuple = generate_random_tuple(repetions + 1, start , end)
 
 # Print the generated random tuple
 print("Random Tuple:", random_tuple)
