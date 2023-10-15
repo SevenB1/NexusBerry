@@ -13,8 +13,12 @@ def count_repeated_elements(my_tuple):
 def generate_random_tuple(length, min_value, max_value):
     return tuple(random.randint(min_value, max_value) for _ in range(length))
 
+repetions = int(input("How many times should this repeat? "))
+start = int(input("What is the starting number? "))
+end = int(input("What is the ending number? "))
+
 # Generate a random tuple with 20 elements ranging from 1 to 100
-random_tuple = generate_random_tuple(20, 1, 100)
+random_tuple = generate_random_tuple(repetions + 1, start - 1, end)
 
 # Print the generated random tuple
 print("Random Tuple:", random_tuple)
