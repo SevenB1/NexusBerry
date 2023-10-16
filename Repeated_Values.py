@@ -1,4 +1,5 @@
 import random
+# Function to count the repeated elements
 def count_repeated_elements(my_tuple):
     counts = {}
     for item in my_tuple:
