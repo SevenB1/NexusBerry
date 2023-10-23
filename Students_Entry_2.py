@@ -37,5 +37,5 @@ for student_id, scores in student_data.items():
     chemistry_score = scores["Chemistry"]
     biology_score = scores["Biology"]
     physics_score = scores["Physics"]
-    
+     
     print(f"{student_id:<15}{chemistry_score:<10.2f}{biology_score:<10.2f}{physics_score:<10.2f}")
