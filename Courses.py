@@ -21,5 +21,5 @@ class Student:
 
 python = Courses(2819,"Python Programming",400)
 js = Courses(2814,"Javascript Programming",450)
-
-Courses.list_all_courses()
+student1 = Student(1232,"Ali")
+Student.admitted_courses
